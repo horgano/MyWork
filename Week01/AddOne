@@ -1,0 +1,11 @@
+#Ask for a number and return it plus 1
+
+number = int(input("Please enter a number: "))
+newNumber = number + 1
+print (f'{number} plus one is {newNumber}')
+
+#format 2
+print (str(number) +' plus 1 is ' + str(newNumber))
+
+#format3
+print ('{} plus 1 is {}'.format(number,newNumber))

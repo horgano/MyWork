@@ -1,0 +1,9 @@
+number = int(input('Please enter a number: '))
+
+number1 = number + 1
+
+
+print (f'The number youentered plus 1 is: {number1}')
+print ('The number you added plus one is: {}'.format(number1))
+print ('The number you entered plus 1 is: ' + str(number1 ))
+
