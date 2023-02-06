@@ -2,7 +2,6 @@
 
 #Author: Niall Horgan
 
-#
 num1 = int(input("Please enter number1 in cents: ",))
 print ('For number 1 you entered: ', (num1))
 
