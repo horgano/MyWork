@@ -1,2 +1,5 @@
+# Ask for name input and deliver response with 2 different formats
+
 name = input("Enter your name: ")
 print('Hello {}\nNice to meet you'.format(name))
+print (f'Hello {name}, nice to meet you')

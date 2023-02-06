@@ -1,2 +1,4 @@
+# Ask for Name input and output Hello response 
+
 name =  input("Enter Name: ")
 print("Hello " + name + "\nNice to meet you")

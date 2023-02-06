@@ -1,4 +1,5 @@
 #Ask for a number and return it plus 1
+#
 
 number = int(input("Please enter a number: "))
 newNumber = number + 1
