@@ -2,12 +2,9 @@
 
 #Author: Niall Horgan
 
-num1 = int(input("Please enter number1 in cents: ",))
-print ('For number 1 you entered: ', (num1))
-
-num2 = int(input('Please enter number2 in cents: '))
-print ('For number 2 you entered: ', (num2))
+num1 = int(input("Enter amount1 (in cents): "))
+num2 = int(input('Enter amount2 (in cents): '))
 
 sum = num1 + num2
 
-print ('The sum of your 2 numbers in EURO format is: €{}'.format(sum/100))
+print ('The sum of your 2 numbers in EUROs is: €{}'.format(sum/100))
