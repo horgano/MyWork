@@ -6,7 +6,7 @@
 import random
 number_to_guess = random.randint(1,100)
 
-guess = int(input("Guess the number between 1 and 20: "))
+guess = int(input("Guess the number between 1 and 100: "))
 
 while (guess != number_to_guess):
     if (guess < number_to_guess):
