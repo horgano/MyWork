@@ -18,6 +18,6 @@ while (x != 1):
         x = ((x * 3) + 1)
         collatz.append (int(x))
 
-print (collatz)
+# print (collatz)
 
-16:
+print (*collatz, sep = " ")
