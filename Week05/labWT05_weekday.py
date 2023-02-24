@@ -11,6 +11,6 @@ today = current_date.strftime("%A")
 # print (current_date.strftime("%A"))
 
 if today in weekdays:
-        print ("\nYes, unfortunately today is a weekday")
+        print ("Yes, unfortunately today is a weekday")
 elif today in weekend:
         print ("\nIt is the weekend, yay!")
