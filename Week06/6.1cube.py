@@ -8,4 +8,4 @@ def cube(number):
 
 cube(3)
 
-
+b
