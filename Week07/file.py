@@ -14,6 +14,8 @@ with open ("data2.txt", "a") as f:
     f.write ("what the hell\n")
     f.write ("brown cow\n")
 
-data = 
+    f.seek(0)  # Go back to start of file to print all after pointer
+    data = f.read()
+    print data
 
 print ("done")
