@@ -10,14 +10,17 @@ def display_menu():
     return choice
         
     
-#def do_add():
-#    print ("adding ")
+def do_add():
+    print ("\nadding \n")
 
-#def do_view():
-#    print ("view ") 
+def do_view():
+    print ("\nviewing \n") 
+
+def do_save():
+    print ("\nsaving \n")
 
 choice = display_menu()
-print (f'you chose {choice}')
+#aprint (f'you chose {choice}')
 while (choice != "q"):
     if (choice == "a"):
         do_add()
