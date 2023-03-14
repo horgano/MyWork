@@ -17,4 +17,4 @@ def write_number(number):
 num = read_number()
 num += 1
 print (f"we have run the program {num} times")
-#write_number(num)
+write_number(num)
